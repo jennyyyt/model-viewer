@@ -1,0 +1,18 @@
+<model-viewer src="deckchair.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="0.76" exposure="1" shadow-softness="1" camera-orbit="-192.6deg 86.73deg 87.64m" field-of-view="30deg" camera-target="-0.00002513m 11.89m 0.00006103m" auto-rotate min-camera-orbit="auto auto 87.64m" min-field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.9525862509559634m 12.88119747224719m -1.441878953727537m" data-normal="-0.050085746554409755m 0.6665832910329651m 0.7437460145155393m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">waterproof fabric</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="1.8259916771724498m 22.978432821713984m -10.82522724944258m" data-normal="-0.04443452183296598m 0.7501013890624183m 0.6598283711664014m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">
+            acacia wood
+        </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
